@@ -1,0 +1,95 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serifs;
+    
+}
+body{
+    overflow:hidden;
+}
+
+.background{
+    background:fixed;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabeçalho-link a{
+    color: white;
+    font-size: 100%;
+}
+.cabeçalho-link a:hover{
+    color: greenyellow;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 100px;
+    width: 100;
+    background: transparent;
+    border: 5px solid;
+    color: antiquewhite;
+    border-radius: 30%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85px;
+    cursor: pointer;
+}
+button{
+    color: purple;
+    background-color: transparent;
+    border: solid;
+    border-radius: 15%;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: grey;
+    color: purple;
+}
+.container-text{
+    padding: 150px 0 0 130px ;
+}
+.text h3{
+    color:blueviolet;
+}
+.text h1{
+    color: blueviolet;
+}
+.text p{
+    color: blueviolet;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 10px;
+
+}
+.redes-sociais a{
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.btn{
+    margin-top: 10;
+}
